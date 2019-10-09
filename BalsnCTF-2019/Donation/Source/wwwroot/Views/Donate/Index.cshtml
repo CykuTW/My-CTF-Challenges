@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Donate to us";
+}
+
+<div class="ts very narrow container">
+    <br />
+    <div class="ts card">
+        <div class="center aligned padded content">
+            <div class="ts large header">
+                Do you wanna support us?
+            </div>
+        </div>
+        <!-- <div class="image">
+        <img src="http://fakeimg.pl/300x300">
+    </div> -->
+        <div class="padded content">
+            <form class="ts form" method="POST">
+                <div class="ts dividing header">Donate to us</div>
+                <div class="field">
+                    <label>Price</label>
+                    <select name="price">
+                        <option value="100">A coffee ( NT$100 )</option>
+                        <option value="1000">A steak ( NT$1,000 )</option>
+                        <option value="10000">A Nintendo Switch ( NT$10,000 )</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label>Your Name</label>
+                    <div class="field">
+                        <input name="name" type="text" placeholder="e.g. Kaibro">
+                    </div>
+                </div>
+                <div class="field">
+                    <label>Phone</label>
+                    <div class="field">
+                        <input name="phone" type="text" placeholder="e.g. 09xx-xxx-xxx">
+                    </div>
+                </div>
+                <div class="field">
+                    <label>E-Mail</label>
+                    <div class="field">
+                        <input name="email" type="email" placeholder="e.g. kaibro@nogg.tw">
+                    </div>
+                </div>
+                <button class="ts button" type="submit">送出</button>
+            </form>
+        </div>
+    </div>

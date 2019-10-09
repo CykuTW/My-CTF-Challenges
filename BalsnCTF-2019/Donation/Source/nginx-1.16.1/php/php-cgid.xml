@@ -1,0 +1,21 @@
+    <configuration>
+      <id>phpcgi</id>
+      <name>PHP-CGI</name>
+      <description>PHP-CGI</description>
+      <executable>%BASE%\php-cgi.exe</executable>
+      <startargument>-c</startargument>
+      <startargument>%BASE%\php.ini</startargument>
+      <startargument>-b</startargument>
+      <startargument>127.0.0.1:9000</startargument>
+      <stopexecutable>C:\Windows\System32\taskkill.exe</stopexecutable>
+      <stopargument>/F</stopargument>
+      <stopargument>/IM</stopargument>
+      <stopargument>php-cgi.exe</stopargument>
+      <logpath>%BASE%/logs/</logpath>
+      <logmode>roll</logmode>
+      <depend></depend>
+      <serviceaccount>
+        <domain>NT AUTHORITY</domain>
+        <user>NetworkService</user>
+      </serviceaccount>
+    </configuration>

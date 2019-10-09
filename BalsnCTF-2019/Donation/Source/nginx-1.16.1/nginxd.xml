@@ -1,0 +1,13 @@
+    <configuration>
+      <id>nginx</id>
+      <name>Nginx 1.16.1</name>
+      <description>Nginx Web Server 1.16.1</description>
+      <executable>%BASE%/nginx.exe</executable>
+      <startargument>-c</startargument>
+      <startargument>%BASE%\conf\nginx.conf</startargument>
+      <stopexecutable>%BASE%/nginx.exe -s stop</stopexecutable>
+      <logpath>%BASE%/logs/</logpath>
+      <logmode>roll</logmode>
+      <depend></depend>
+
+    </configuration>
