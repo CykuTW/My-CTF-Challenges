@@ -259,7 +259,7 @@ LockCookie:0
 
 The session data is deserialized by using `System.Web.SessionState.SessionStateUtility.DeserializeStoreData()`.
 
-This method is based on `SessionStateItemCollection` and `HttpStaticObjectsCollection`. This tool [ysoserial.net](https://github.com/pwntester/ysoserial.net) already has a plugin to generate deserialization payload to exploit these two class.
+This method is based on `SessionStateItemCollection` and `HttpStaticObjectsCollection`. This tool [ysoserial.net](https://github.com/pwntester/ysoserial.net) already has a plugin to generate deserialization payload to exploit these two classes.
 
 We can generate a RCE payload with this command:
 ```
