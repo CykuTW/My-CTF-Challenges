@@ -5,10 +5,6 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get('/echo.zip', (req, res) => {
-    res.sendfile(`${__dirname}/echo.zip`);
-});
-
 app.get('/', (req, res) => {
     res.render('index.ejs');
 });
