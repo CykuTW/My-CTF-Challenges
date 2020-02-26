@@ -1,12 +1,8 @@
-Title:
-```
+### Title
 CureURL
-```
 
-Description:
-```
+### Description
 天にあまねくミルキーウェイ！キュアミルキー！
 
 ![](milky.jpg)
-```
 
