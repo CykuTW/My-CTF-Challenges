@@ -2,7 +2,7 @@
 
 English：[README.en.md](README.en.md)
 
-中文：[README.zh-CN.md](README.zh-CN.md)
+中文：[README.zh-TW.md](README.zh-TW.md)
 
 ## Exploit
 
