@@ -1,0 +1,12 @@
+mixin head(title)
+  head
+    title= title
+    if block
+      block
+
+mixin body()
+  body
+    if block
+      block
+    else
+      h3 404 not found

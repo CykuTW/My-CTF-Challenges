@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+    app:
+        build: .
+        image: cyku/whois-tool
+        ports:
+            - "47701:8000"
+        user: "1000:1000"

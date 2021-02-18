@@ -1,0 +1,11 @@
+doctype html
+html
+  include mixins
+
+  +head('echo service')
+  +body
+    form(action='/echo', method='POST')
+      | text: 
+      input(type='text', name='text', value='')
+      br
+      input(type='submit', value='echo')

@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+    app:
+        build: .
+        image: cyku/echo
+        ports:
+            - "47703:5000"
+        user: "1000:1000"
